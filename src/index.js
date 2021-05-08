@@ -2,13 +2,21 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
+import Headline from './Headline'
 import reportWebVitals from './reportWebVitals'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('main')
+)
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Headline />
+  </React.StrictMode>,
+  document.getElementById('headline')
 )
 
 // If you want to start measuring performance in your app, pass a function

@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-header {
-  height: 50px;
-  border-bottom-color: gray;
-}
-
 .ad {
   margin: 20px 5px 0px 0px;
   width: 700px;
